@@ -33,7 +33,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 systemctl enable --now tailscaled
 
 echo ">>> 4. 正在自动登录加入虚拟局域网..."
-tailscale up --authkey="tskey-auth-kv1foqx8Hp11CNTRL-yC5BrgHEHtFVes2iKKeZsFHVvLkZZV94" --accept-routes --reset
+tailscale up --authkey="tskey-auth-kv1foqx8Hp11Ves2iKKeZsFHVvLkZZV94" --accept-routes --reset
 
 echo "=========================================="
 echo "执行完毕！本机 Tailscale 内网 IP 为："
